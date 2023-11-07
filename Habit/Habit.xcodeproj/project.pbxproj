@@ -13,6 +13,9 @@
 		F6AF29B92AF5A9980025DAE7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF29B82AF5A9980025DAE7 /* SplashView.swift */; };
 		F6AF29BB2AF5AA4B0025DAE7 /* SplashUiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF29BA2AF5AA4B0025DAE7 /* SplashUiState.swift */; };
 		F6F7F87A2AFA6F2A007A81D5 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F8792AFA6F2A007A81D5 /* SplashViewModel.swift */; };
+		F6F7F8802AFA7C8E007A81D5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F87F2AFA7C8E007A81D5 /* SignInView.swift */; };
+		F6F7F8822AFA7CCA007A81D5 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F8812AFA7CCA007A81D5 /* SignInViewModel.swift */; };
+		F6F7F8842AFA7D9B007A81D5 /* SplashViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F8832AFA7D9B007A81D5 /* SplashViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		F6AF29B82AF5A9980025DAE7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		F6AF29BA2AF5AA4B0025DAE7 /* SplashUiState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashUiState.swift; sourceTree = "<group>"; };
 		F6F7F8792AFA6F2A007A81D5 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		F6F7F87F2AFA7C8E007A81D5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F6F7F8812AFA7CCA007A81D5 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		F6F7F8832AFA7D9B007A81D5 /* SplashViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 		F6AF29A52AF5A6940025DAE7 /* Habit */ = {
 			isa = PBXGroup;
 			children = (
+				F6F7F87B2AFA7C48007A81D5 /* SignIn */,
 				F6AF29B42AF5A6DB0025DAE7 /* Splash */,
 				F6AF29A62AF5A6940025DAE7 /* HabitApp.swift */,
 				F6AF29AA2AF5A6960025DAE7 /* Assets.xcassets */,
@@ -101,8 +108,42 @@
 			isa = PBXGroup;
 			children = (
 				F6F7F8792AFA6F2A007A81D5 /* SplashViewModel.swift */,
+				F6F7F8832AFA7D9B007A81D5 /* SplashViewRouter.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6F7F87B2AFA7C48007A81D5 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F87E2AFA7C5E007A81D5 /* View */,
+				F6F7F87D2AFA7C54007A81D5 /* Model */,
+				F6F7F87C2AFA7C4E007A81D5 /* ViewModel */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		F6F7F87C2AFA7C4E007A81D5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F8812AFA7CCA007A81D5 /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6F7F87D2AFA7C54007A81D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6F7F87E2AFA7C5E007A81D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F87F2AFA7C8E007A81D5 /* SignInView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +218,11 @@
 			files = (
 				F6AF29A72AF5A6940025DAE7 /* HabitApp.swift in Sources */,
 				F6AF29B92AF5A9980025DAE7 /* SplashView.swift in Sources */,
+				F6F7F8822AFA7CCA007A81D5 /* SignInViewModel.swift in Sources */,
 				F6F7F87A2AFA6F2A007A81D5 /* SplashViewModel.swift in Sources */,
 				F6AF29BB2AF5AA4B0025DAE7 /* SplashUiState.swift in Sources */,
+				F6F7F8842AFA7D9B007A81D5 /* SplashViewRouter.swift in Sources */,
+				F6F7F8802AFA7C8E007A81D5 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
