@@ -21,6 +21,10 @@
 		F6F7F88E2AFA8EB2007A81D5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F88D2AFA8EB2007A81D5 /* HomeView.swift */; };
 		F6F7F8902AFA8EC5007A81D5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F88F2AFA8EC5007A81D5 /* HomeViewModel.swift */; };
 		F6F7F8962AFA9279007A81D5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F8952AFA9279007A81D5 /* SignUpView.swift */; };
+		F6F7F89A2AFA9A01007A81D5 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F8992AFA9A01007A81D5 /* Gender.swift */; };
+		F6F7F89C2AFAA04D007A81D5 /* SignUpUiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F89B2AFAA04D007A81D5 /* SignUpUiState.swift */; };
+		F6F7F89E2AFAA08D007A81D5 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F89D2AFAA08D007A81D5 /* SignUpViewModel.swift */; };
+		F6F7F8A02AFAA0F7007A81D5 /* SignUpViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F89F2AFAA0F7007A81D5 /* SignUpViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		F6F7F88D2AFA8EB2007A81D5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F6F7F88F2AFA8EC5007A81D5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		F6F7F8952AFA9279007A81D5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F6F7F8992AFA9A01007A81D5 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		F6F7F89B2AFAA04D007A81D5 /* SignUpUiState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUiState.swift; sourceTree = "<group>"; };
+		F6F7F89D2AFAA08D007A81D5 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		F6F7F89F2AFAA0F7007A81D5 /* SignUpViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 		F6AF29A52AF5A6940025DAE7 /* Habit */ = {
 			isa = PBXGroup;
 			children = (
+				F6F7F8972AFA99E9007A81D5 /* Commom */,
 				F6F7F8912AFA924C007A81D5 /* SignUp */,
 				F6F7F8892AFA8E80007A81D5 /* Home */,
 				F6F7F87B2AFA7C48007A81D5 /* SignIn */,
@@ -206,6 +215,7 @@
 		F6F7F8922AFA9253007A81D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F6F7F89B2AFAA04D007A81D5 /* SignUpUiState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +223,8 @@
 		F6F7F8932AFA925B007A81D5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F6F7F89D2AFAA08D007A81D5 /* SignUpViewModel.swift */,
+				F6F7F89F2AFAA0F7007A81D5 /* SignUpViewRouter.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -223,6 +235,22 @@
 				F6F7F8952AFA9279007A81D5 /* SignUpView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F6F7F8972AFA99E9007A81D5 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F8982AFA99F3007A81D5 /* Model */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		F6F7F8982AFA99F3007A81D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F8992AFA9A01007A81D5 /* Gender.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +326,15 @@
 				F6AF29A72AF5A6940025DAE7 /* HabitApp.swift in Sources */,
 				F6F7F8902AFA8EC5007A81D5 /* HomeViewModel.swift in Sources */,
 				F6AF29B92AF5A9980025DAE7 /* SplashView.swift in Sources */,
+				F6F7F8A02AFAA0F7007A81D5 /* SignUpViewRouter.swift in Sources */,
 				F6F7F8822AFA7CCA007A81D5 /* SignInViewModel.swift in Sources */,
 				F6F7F8962AFA9279007A81D5 /* SignUpView.swift in Sources */,
 				F6F7F88E2AFA8EB2007A81D5 /* HomeView.swift in Sources */,
 				F6F7F8882AFA8E51007A81D5 /* SignInViewRouter.swift in Sources */,
+				F6F7F89E2AFAA08D007A81D5 /* SignUpViewModel.swift in Sources */,
 				F6F7F87A2AFA6F2A007A81D5 /* SplashViewModel.swift in Sources */,
+				F6F7F89A2AFA9A01007A81D5 /* Gender.swift in Sources */,
+				F6F7F89C2AFAA04D007A81D5 /* SignUpUiState.swift in Sources */,
 				F6AF29BB2AF5AA4B0025DAE7 /* SplashUiState.swift in Sources */,
 				F6F7F8862AFA8AA2007A81D5 /* SignInUiState.swift in Sources */,
 				F6F7F8842AFA7D9B007A81D5 /* SplashViewRouter.swift in Sources */,
